@@ -1,0 +1,34 @@
+#load{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#time, #bouton{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+
+.title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.card{
+    margin: 2%;
+    padding: 1%;
+    
+}
+
+#chrono{
+    margin: 2em;
+}
+
+
+
+@media print {
+    #centre, #save, #btnsup{
+        display: none;
+    } 
+}
